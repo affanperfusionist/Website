@@ -1,0 +1,73 @@
+title: Debond
+title-styled: D<em class='debond-color-font-bold'>/</em>Bond
+debond-slash: <em class='debond-color-font-bold'>/</em>
+debond-white-slash: <em class='debond-color-font-bold-white'>/</em>
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: G-4QKG027S0E
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-get-json
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+webapp_link: "https://debondapp.web.app"
+mail: "info@debond.org"
+documentation: "https://github.com/Debond-Protocol/Docs/raw/main/Debond_Whitepaper_V2_WIP.pdf"
+linkedin: "https://www.linkedin.com/company/debond-protocol/"
+pitch: "https://github.com/Debond-Protocol/Docs/raw/main/DEBOND_PITCH_DECK_v2.01.pdf"
+video: "https://www.youtube.com/embed/iEneuSCameo"
+eip: "https://eips.ethereum.org/EIPS/eip-3475"
+cm_discord: "http://discord.gg/TMdDHCY2aD"
+discord: "https://discord.gg/HUDSX4Agjq"
+minting_app: "https://debond.app"
+
+
+jekyll_get_json:
+  - data: mediumPosts
+    json: 'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@debond-protocol'
+
+sass:
+  sass_dir: assets/css/scss
+
+navigation:
+  - title: Team
+    url: /team
+  - title: About
+    url: /about
+  - title: Community
+    url: /community
+  - title: NFT
+    url: /nft

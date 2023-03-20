@@ -1,0 +1,106 @@
+.massive-message {
+    background-color: black !important;
+}
+
+.e-widget-wrapper {
+    width: 100%;
+}
+
+.gleam-form {
+    vertical-align: middle;
+    display: flex;
+    width: 100%;
+}
+
+.paragraph span {
+    display: inline-block;
+    text-align: left !important;
+}
+
+.paragraph p {
+    margin-bottom: 5vh;
+    text-align: left !important;
+}
+
+
+
+.debondh5 {
+    /* 🖥menu entries•24pt */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    /* or 112% */
+    text-align: center;
+    letter-spacing: -0.41759px;
+
+    /* Debond White */
+    color: #FFFFFF;
+}
+
+.paragraph {
+    max-width: 80%;
+    margin: 5vh auto 10vh auto;
+}
+
+html body .e-widget-wrapper {
+    margin: 30vh;
+}
+
+body {
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+li span {
+    display: block;
+    font-size: 4.5rem;
+}
+
+#countdown ul li span {
+    width: unset !important;
+    color: #403AF4
+}
+
+#countdown {
+    color: white
+}
+
+i {
+    color: #403AF4;
+}
+
+.row > * {
+    flex-shrink: unset;
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 724px) {
+    li {
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    .col-sm {
+        flex: unset;
+    }
+}

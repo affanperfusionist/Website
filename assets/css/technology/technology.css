@@ -1,0 +1,641 @@
+#ledger {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    bottom: 0px;
+    right: -50px;
+    /*z-index: 10;*/
+}
+
+.black-btn {
+    background-color: black;
+    border: none!important;
+}
+.black-btn:hover{
+    color:#403AF4
+}
+
+.second-page {
+    margin-top: 0px;
+    padding-top:0px;
+}
+
+.container-fluid {
+    background-color: #403AF4;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eip-page {
+    background-color: transparent;
+    /*width: 100%;*/
+
+}
+
+.table-container .table-title {
+    text-align: left;
+}
+
+.sidebyside {
+    margin-top: 100px;
+}
+
+.debond-table {
+    justify-content: space-evenly;
+}
+
+.debond-table .item {
+    width: 195px;
+}
+
+.debond-table .item {
+    text-align: left;
+}
+
+.item .item-top {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.technology .item p {
+    text-align: left;
+}
+
+
+#round-left {
+    position: absolute;
+    width: 391px;
+    height: 177.88px;
+    /*margin-left: 60%;*/
+    right: -150px;
+    top: 0;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    z-index: 0;
+
+}
+
+#round-right {
+    position: absolute;
+    width: 375px;
+    height: 241px;
+    bottom: 0px;
+    right: 0px;
+    /*z-index: 10;*/
+}
+
+
+.eip-container {
+    background: #403AF4;
+    height: 630px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 2030px;
+    overflow: hidden;
+}
+
+.eip-container div {
+    z-index: 1;
+}
+
+.eip-text .button {
+    margin-top: 40px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 20px 10px 20px 10px;
+}
+
+
+.eip-header {
+    font-size: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 37px;
+    /* or 103% */
+
+    /* Debond White */
+    color: #FFFFFF;
+}
+
+.works .item p {
+    text-align: left;
+}
+
+.eip {
+    z-index: 1;
+}
+
+.eip-text {
+    height: 505px;
+    width: 314px;
+    /*margin-top: 200px;*/
+    z-index: 1;
+}
+
+.eip-description {
+    /* 📱Body text small • 16pt */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+
+    /* Debond White */
+    color: #FFFFFF;
+    margin-top: 29px;
+}
+
+.introducing-header {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 60px;
+    /* or 100% */
+
+    /* Debond White */
+    color: #FFFFFF;
+}
+
+.introducing-description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    width: 504px;
+    margin-bottom: 50px;
+}
+
+.introducing-text {
+    width: 606px;
+    height: 329px;
+    right: 14px;
+    top: 25px;
+    position: absolute;
+    vertical-align: middle;
+}
+
+#introducing {
+    width: 218px;
+}
+
+.introducing {
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 536px;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.introducing img {
+    position: absolute;
+    width: 440px;
+    left: 116px;
+    top: 22px;
+}
+
+.debond-table .item .item-header {
+    background: transparent;
+    height: fit-content;
+}
+
+
+.debond-table .item .item-header img {
+    max-width: 227px;
+    max-height: 308px;
+}
+
+
+
+.table-container {
+    /*margin-top: 160px;*/
+}
+
+.works img {
+    width: 140px;
+}
+
+.table-title {
+    margin-bottom: 45px;
+}
+
+.debond-table .item span {
+    /* 🖥Body text Small•16pt */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+.debond-table .item p {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 37px;
+}
+
+@media only screen and (max-width: 375px) {
+
+    .container-fluid {
+        height: 630px;
+    }
+
+    .technology .debond-table .item, .works .item {
+        width: 285px;
+    }
+
+    .page-title .title-header {
+        font-size: 57px;
+    }
+
+    .table-container {
+        margin-top: 10px;
+    }
+
+    .sidebyside {
+        /*margin-top: 200px;*/
+    }
+
+    .works .item p {
+        font-size: 30px;
+    }
+
+    .technology {
+        margin-top: 10px;
+    }
+
+    .eip-container {
+        height: 700px;
+        top: 315vh;
+    }
+
+    .works-container {
+        /*margin-top: 20vh;
+        margin-bottom: 20vh;*/
+    }
+    .eip-page {
+        margin-top: 15vh;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+
+    #round-left{
+        right: -200px;
+    }
+
+    #ledger {
+        right: unset;
+    }
+
+    .container-fluid {
+        height: 630px;
+    }
+
+    .page-title .title-header {
+        font-size: 57px;
+    }
+
+    .introducing img {
+        width: 183px;
+        height: 195px;
+    }
+
+    .technology .item {
+        width: 285px;
+    }
+
+    .eip-text {
+        /*margin-top: 300px;*/
+    }
+
+    .technology .debond-table .item p {
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+
+    .sidebyside div {
+        margin-top: 30px;
+    }
+
+    .sidebyside .sbs-header, .sidebyside .sbs-text {
+        line-height: 37px;
+        text-align: left;
+    }
+
+    .sidebyside .sbs-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        /* or 125% */
+    }
+
+    .works .item {
+        width: 310px;
+    }
+
+    .works .item p {
+        font-size: 32px;
+        margin-bottom: 14px;
+    }
+
+    .debond-table .item span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .eip-container {
+        top: 290vh;
+    }
+
+    .works-container {
+        /*margin-top: 20vh;
+        margin-bottom: 20vh;*/
+    }
+
+    .eip-page {
+        margin-top: 10vh;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1339px) {
+
+    .container-fluid {
+        height: 513px;
+    }
+
+    .page-title {
+        padding-bottom: 30px;
+    }
+
+    .eip-container {
+        /*top: 1100px;*/
+        top: 220vh;
+    }
+
+    #round-right {
+
+    }
+
+    .table-container {
+        width: 100%;
+    }
+
+    .sidebyside .sbs-header, .sidebyside .sbs-text {
+        text-align: left;
+        width: 289px;
+        margin-left: 100px;
+    }
+
+    #round-left {
+        position: absolute;
+        width: 351px;
+        height: unset;
+        left: 0px;
+        top: 0px;
+        transform: unset;
+        margin-left: unset;
+        margin-left: -60px;
+    }
+
+    .debond-table .item span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    technology .debond-table .item .item-top,.technology .debond-table .item p{
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+
+
+  .debond-table .item p {
+        margin-bottom: 20px;
+    }
+
+    .eip {
+        width: 100%;
+    }
+
+    .eip-text {
+        margin: 250px 30px 0px 30px;
+    }
+
+    .works .item .item-header {
+        height: 200px;
+    }
+
+    .works .item p {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .works .item span {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .works .item .item-header img {
+        max-width: 111px;
+    }
+}
+
+
+@media only screen and (min-width: 1340px) {
+    .container-fluid {
+        height: 840px;
+    }
+
+
+    .sidebyside {
+        /*margin-top:40vh;*/
+    }
+
+    .works .item .item-top {
+        font-size: 60px;
+    }
+
+    .technology .debond-table .item p {
+        font-size: 36px;
+        margin: 5px 0px 60px 0px;
+    }
+
+    .technology .debond-table .item span {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    technology .debond-table .item .item-top,.technology .debond-table .item p{
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 37px;
+    }
+
+    .eip-container {
+        top: 220vh;
+        height: 845px;
+    }
+
+    .eip {
+        width: 100%;
+    }
+
+    .eip-text {
+        /*margin: 280px 30px 0px 30px;*/
+        background-color: #403AF4;
+    }
+
+    .eip-description {
+        font-size: 20px;
+        line-height: 31px;
+    }
+
+    .eip-header {
+        font-size: 58.7446px;
+        line-height: 71px;
+    }
+
+    #round-right {
+        width: 976px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 0;
+        height: unset;
+    }
+
+
+    .sidebyside {
+        /*margin-top: 500px;*/
+    }
+
+    .sidebyside .sbs-header {
+        position: relative;
+        margin-top: 80px;
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 60px;
+        text-align: left;
+    }
+
+    .sidebyside .sbs-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: left;
+        margin-top: 40px;
+    }
+
+    .sidebyside {
+        display: flex;
+        align-items: center;
+    }
+
+    .sbs-text .centered {
+        margin-top: 73px;
+    }
+
+    #introducing {
+        width: 397px;
+    }
+
+    #round-left {
+        transform: unset;
+        top: 0px;
+        left: 0px;
+        margin-left: 0px;
+        width: 638px;
+        height: unset;
+
+    }
+
+    .table-container {
+        /*margin-top: 200px;*/
+        width: 100%;
+    }
+
+    .debond-table .item {
+        width: 365px;
+    }
+
+    .page-title span {
+        width: 900px;
+    }
+
+    .page-title {
+        /*padding-bottom: 67px;*/
+    }
+
+    .works .item .item-header {
+        height: 308px;
+    }
+
+    .works .item .item-header img {
+        max-height: 308px;
+    }
+
+    .works .item p {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 134.09%;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+
+    .works .item span {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .table-container .table-title {
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .vertical-spaced {
+        margin-top: 200px;
+    }
+
+    .eip-text .button {
+        width: 400px;
+    }
+
+
+}
